@@ -12,7 +12,7 @@
   display: flex;
   border-style: groove;
   width: 100%;
-  height: 60%;
+  height: 350px;
   justify-content: space-around;
 }
 
@@ -20,13 +20,16 @@
   display: flex;
   border-style: groove;
   width: 250px;
-  height: 250px;
+  height: 350px;
   flex-direction: column;
+  align-items: center;
 }
 
 #Bubble{
   display: flex;
   border-style: groove;
+  justify-content: space-around;
+  font-size: x-large;
   width: 250px;
   height: 100px; 
 }
@@ -35,30 +38,27 @@
   display: flex;
   border-style: groove;
   width: 220px;
-  height: 300px;
+  height: 400px;
 }
 
 .Characters{
   display: flex;
   justify-content: space-around;
   border-style: groove;
-  width: 650px;
-  height: 110px;
+  width: 100%;
+  height: 210px;
 }
 
 #Hero{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   border-style: groove;
-  width: 140px;
-  height: 105px;
-}
-
-#Bubble{
-  font-size: 12px;
-  justify-content: space-around;
+  font-size: x-large;
+  line-height: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 .Golem{
@@ -67,6 +67,6 @@
 }
 
 .Space{
-  height: 300px;
+  height: 100px;
   width: 100px;
 }
