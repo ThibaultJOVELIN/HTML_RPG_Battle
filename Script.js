@@ -30,3 +30,4 @@ var VakueDefence_Paladin
 var Atk_Spell_BloodMage
 var Atk_Spell_Alchemist
 var Heal_Spell_Paladin
+
