@@ -27,7 +27,7 @@
 }
 
 #Bubble{
-  display: flex;
+  display: none; flex;
   border-style: groove;
   justify-content: space-around;
   font-size: x-large;
