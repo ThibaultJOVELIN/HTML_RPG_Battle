@@ -27,10 +27,11 @@
 }
 
 #Bubble{
-  display: none; flex;
+  display: flex;
   border-style: groove;
   justify-content: space-around;
   font-size: x-large;
+  opacity: 0.0;
   width: 250px;
   height: 100px; 
 }
