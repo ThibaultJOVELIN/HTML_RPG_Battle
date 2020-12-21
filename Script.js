@@ -33,3 +33,12 @@ var ValueDefence_Paladin = 45
 var Atk_Spell_BloodMage = 80
 var Atk_Spell_Alchemist = 50
 var Heal_Spell_Paladin = 80
+
+
+document.getElementById("PictureMonster1").onmouseover = function(){
+    document.getElementById("DetailsMonster1").style.visibility = "visible"
+}
+
+document.getElementById("PictureMonster1").onmouseout = function(){
+    document.getElementById("DetailsMonster1").style.visibility = "hidden"
+}
