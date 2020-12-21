@@ -31,3 +31,11 @@ var Atk_Spell_BloodMage
 var Atk_Spell_Alchemist
 var Heal_Spell_Paladin
 
+function disappearance() {
+var A = document.getElementById('Bubble');
+something.style.opacity = "0.5";
+}
+
+function hover() {
+var B = document.getElementById('Bubble');
+something.style.opacity = "1";
