@@ -37,10 +37,6 @@
   height: 100px; 
 }
 
-#PMonster:hover~#Bubble{
-  opacity: 1;
-}
-
 #PMonster{
   display: flex;
   border-style: groove;
