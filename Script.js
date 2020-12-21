@@ -33,12 +33,3 @@ var ValueDefence_Paladin = 45
 var Atk_Spell_BloodMage = 80
 var Atk_Spell_Alchemist = 50
 var Heal_Spell_Paladin = 80
-
-function invisible() {
-var A = document.getElementById('Bubble');
-something.style.opacity = "0";
-}
-
-function visible() {
-var B = document.getElementById('Bubble');
-something.style.opacity = "1";
