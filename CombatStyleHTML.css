@@ -31,9 +31,14 @@
   border-style: groove;
   justify-content: space-around;
   font-size: x-large;
-  opacity: 0.5;
+  opacity: 0;
+  color: white;
   width: 250px;
   height: 100px; 
+}
+
+#PMonster:hover~#Bubble{
+  opacity: 1;
 }
 
 #PMonster{
