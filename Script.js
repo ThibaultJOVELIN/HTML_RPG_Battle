@@ -35,26 +35,26 @@ var Atk_Spell_Alchemist = 50
 var Heal_Spell_Paladin = 80
 
 
-document.getElementById("PictureMonster1").onmouseover = function(){
-    document.getElementById("DetailsMonster1").style.visibility = "visible"
+document.getElementById("PMonster1").onmouseover = function(){
+    document.getElementById("Bubble1").style.visibility = "visible"
 }
 
-document.getElementById("PictureMonster1").onmouseout = function(){
-    document.getElementById("DetailsMonster1").style.visibility = "hidden"
+document.getElementById("PMonster1").onmouseout = function(){
+    document.getElementById("Bubble1").style.visibility = "hidden"
 }
 
-document.getElementById("PictureMonster2").onmouseover = function(){
-    document.getElementById("DetailsMonster2").style.visibility = "visible"
+document.getElementById("PMonster2").onmouseover = function(){
+    document.getElementById("Bubble2").style.visibility = "visible"
 }
 
-document.getElementById("PictureMonster2").onmouseout = function(){
-    document.getElementById("DetailsMonster2").style.visibility = "hidden"
+document.getElementById("PMonster2").onmouseout = function(){
+    document.getElementById("Bubble2").style.visibility = "hidden"
 }
 
-document.getElementById("PictureMonster3").onmouseover = function(){
-    document.getElementById("DetailsMonster3").style.visibility = "visible"
+document.getElementById("PMonster3").onmouseover = function(){
+    document.getElementById("Bubble3").style.visibility = "visible"
 }
 
-document.getElementById("PictureMonster3").onmouseout = function(){
-    document.getElementById("DetailsMonster3").style.visibility = "hidden"
+document.getElementById("PMonster3").onmouseout = function(){
+    document.getElementById("Bubble3").style.visibility = "hidden"
 }
