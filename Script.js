@@ -37,7 +37,8 @@ var Atk_Spell_BloodMage = 80
 var Atk_Spell_Alchemist = 50
 var Heal_Spell_Paladin = 80
 
-var Turn = 0
+var Turn = 1
+var target = 0
 
 document.getElementById("PMonster1").onmouseover = function(){
     document.getElementById("Bubble1").style.visibility = "visible"
@@ -63,9 +64,33 @@ document.getElementById("PMonster3").onmouseout = function(){
     document.getElementById("Bubble3").style.visibility = "hidden"
 }
 
-function attackBloodMage() {
+
+function AttackBloodMage() {
 	PV_Monster1 = document.getElementById("PV_Monster1").innerHTML 
 	PV_Monster1 -= Atk_BloodMage
 	document.getElementById("PV_Monster1").innerHTML = PV_Monster1
 }
 
+function SpellBloodMage() {
+	PV_Monster1 = document.getElementById("PV_Monster1").innerHTML 
+	PV_Monster1 -= Atk_Spell_BloodMage
+	document.getElementById("PV_Monster1").innerHTML = PV_Monster1
+}
+
+function AttackAlchemist() {
+	PV_Monster1 = document.getElementById("PV_Monster1").innerHTML 
+	PV_Monster1 -= Atk_Alchemsit
+	document.getElementById("PV_Monster1").innerHTML = PV_Monster1
+}
+
+function SpellAlchemist() {
+	PV_Monster1 = document.getElementById("PV_Monster1").innerHTML 
+	PV_Monster1 -= Atk_Spell_Alchemsit
+	document.getElementById("PV_Monster1").innerHTML = PV_Monster1
+}
+
+function AttackPaladin() {
+	PV_Monster1 = document.getElementById("PV_Monster1").innerHTML 
+	PV_Monster1 -= Atk_Paladin
+	document.getElementById("PV_Monster1").innerHTML = PV_Monster1
+}
