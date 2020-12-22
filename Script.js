@@ -80,20 +80,6 @@ document.getElementById("PMonster3").onmouseout = function(){
 
 //-------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //-------------------------
 
 function AttackBloodMage() {
