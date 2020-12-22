@@ -26,20 +26,13 @@
   align-items: flex-end;
 }
 
-#Bubble{
+.DetailsMonster{
   display: flex;
   border-style: groove;
   justify-content: space-around;
   font-size: x-large;
   width: 250px;
   height: 100px; 
-}
-
-#PMonster{
-  display: flex;
-  border-style: groove;
-  width: 300px;
-  height: 400px;
 }
 
 .Characters{
