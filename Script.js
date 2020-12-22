@@ -42,3 +42,19 @@ document.getElementById("PictureMonster1").onmouseover = function(){
 document.getElementById("PictureMonster1").onmouseout = function(){
     document.getElementById("DetailsMonster1").style.visibility = "hidden"
 }
+
+document.getElementById("PictureMonster2").onmouseover = function(){
+    document.getElementById("DetailsMonster2").style.visibility = "visible"
+}
+
+document.getElementById("PictureMonster2").onmouseout = function(){
+    document.getElementById("DetailsMonster2").style.visibility = "hidden"
+}
+
+document.getElementById("PictureMonster3").onmouseover = function(){
+    document.getElementById("DetailsMonster3").style.visibility = "visible"
+}
+
+document.getElementById("PictureMonster3").onmouseout = function(){
+    document.getElementById("DetailsMonster3").style.visibility = "hidden"
+}
