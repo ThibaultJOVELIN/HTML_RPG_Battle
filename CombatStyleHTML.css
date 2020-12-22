@@ -46,13 +46,17 @@
 #Hero{
   display: flex;
   flex-direction: column;
-  justify-content: space;
   align-items: center;
   border-style: groove;
   font-size: x-large;
   line-height: 50%;
   width: 200px;
   height: 200px;
+}
+
+.PV_Monster{
+  border-style: groove;
+  width: 80px
 }
 
 button{
