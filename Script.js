@@ -80,6 +80,26 @@ document.getElementById("PMonster3").onmouseout = function(){
 
 //-------------------------
 
+function deathBloodMage () {
+	if PV_BloodMage <= 0
+		document.getElementById("Hero1")style.visibility = "hidden"
+}
+
+ function deathAlchemist () {
+ 	if PV_Alchemsit <= 0
+ 		document.getElementById("Hero2")style.visibility = "hidden"
+ }
+
+  function deathDepressive () {
+ 	if PV_Depressive <= 0
+ 		document.getElementById("Hero3")style.visibility = "hidden"
+ }
+
+  function deathPaladin () {
+ 	if PV_Paladin <= 0
+ 		document.getElementById("Hero4")style.visibility = "hidden"
+ }
+
 //-------------------------
 
 function AttackBloodMage() {
