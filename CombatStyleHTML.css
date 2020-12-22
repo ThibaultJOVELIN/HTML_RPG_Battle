@@ -31,8 +31,12 @@
   border-style: groove;
   justify-content: space-around;
   font-size: large;
-  width: 150px;
+  width: 200px;
   height: 60px; 
+}
+
+#Bubble{
+  visibility: hidden;
 }
 
 .Characters{
@@ -57,6 +61,28 @@
 .PV_Monster{
   border-style: groove;
   width: 80px
+}
+
+.Target{
+  display: flex;
+  border-style: groove;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+}
+
+.Target_Monster{
+  display: flex;
+  border-style: groove;
+  font-size: 30px;
+  justify-content: center;
+
+  align-items: baseline;
+  flex-direction: row;
+  height: 100px;
+  width: 200px;
 }
 
 button{
